@@ -1,0 +1,31 @@
+{% extends "layouts/base.html" %} 
+
+{% block title %}- Home{% endblock %}
+
+{% block content %}
+  <header>
+    <h1>{{ name }}</h1>
+  </header>
+  <section>
+    <h3>Skills:</h3>
+    <p><em>HTML, CSS, JavaScript, Twitter Bootstrap, jQuery, Angular.js, Node.js, Express.js, MongoDB</em></p>
+  </section>
+  <section>
+    <h3>Мои работы:</h3>
+    <nav>
+      <ul>
+        <li><a href="/portfolio/mumbo" target="_blank">Mumbo</a></li>
+        <li><a href="/portfolio/sport-trail" target="_blank">Спорт Трейл</a></li>
+      </ul>
+    </nav>
+  </section>
+  <footer>
+    <section>
+      <h3>Мои контакты:</h3>
+      <ul>
+        <li>Skype: ravendcs</li>
+        <li>ICQ: 680318161</li>
+      </ul>
+    </section>
+  </footer>
+{% endblock %}

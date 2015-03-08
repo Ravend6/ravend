@@ -9,6 +9,8 @@
   "author": "Ravend <ravend6@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.12.2"
+    "express": "^4.12.2",
+    "jade": "^1.9.2",
+    "nunjucks": "^1.2.0"
   }
 }
